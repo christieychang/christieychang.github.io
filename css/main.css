@@ -222,7 +222,7 @@ a:hover .portfolio-piece{
 	.footer {
 		padding: 75px 0px;
 	}
-	
+
 	.project-header {
 		display: -webkit-flex;
 		display: flex;
@@ -294,3 +294,23 @@ a:hover .portfolio-piece{
 
 /*project 1 formatting*/
 
+
+
+
+
+.coming-soon {
+	text-align: center;
+	}
+
+.coming-soon h3 {
+	font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2.5em;
+	padding: 75px 50px 0px 50px;
+}
+
+.coming-soon p {
+	font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 0px 0px 75px 0px;
+	max-width: 250px;
+	margin: auto;
+}
