@@ -120,7 +120,7 @@ a:hover .portfolio-piece{
 
 
 /* For tablet screens */
-@media screen and (min-width: 550px) {
+@media only screen and (min-width: 600px) {
 	.container {
 		max-width: 500px;
 		margin: auto;
@@ -168,7 +168,7 @@ a:hover .portfolio-piece{
 
 
 /* For desktop screens */
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 	.header div h1 {
 		text-align: left;
 		padding: 22px 0px 10px 0px;
@@ -222,8 +222,36 @@ a:hover .portfolio-piece{
 	.footer {
 		padding: 75px 0px;
 	}
+	
 	.project-header {
-		margin-top: 100px;
+		display: -webkit-flex;
+		display: flex;
+		margin-top: 75px;
+	}
+
+	.project-header .project-title {
+		width: 50%;
+	}
+	.project-header .project-desc {
+		width: 50%;
+	}
+	.project-header .project-title h3 {
+		max-width: 500px;
+		text-align: right;
+		font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 2.5em;
+		float: right;
+		padding-right: 15px;
+		margin-top: 150px;
+	}
+
+	.project-header .project-desc p {
+		max-width: 450px;
+		text-align: left;
+		font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		padding-left: 15px;
+		margin-top: 160px;
+		margin-bottom: 150px;
 	}
 }
 
@@ -265,20 +293,4 @@ a:hover .portfolio-piece{
 
 
 /*project 1 formatting*/
-.project-header {
-	text-align: center;
-}
-
-.project-header h3 {
-	font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 2.5em;
-	padding: 75px 50px 0px 50px;
-}
-
-.project-header p {
-	font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	padding: 0px 0px 75px 0px;
-	max-width: 250px;
-	margin: auto;
-}
 
