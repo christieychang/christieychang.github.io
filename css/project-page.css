@@ -210,28 +210,52 @@ main {
 		display: flex;
 		margin-top: 75px;
 	}
+	
+	.project-body {
+		border: 3px;
+	}
 
 	.project-desc {
-		width: 50%;
+		width: 500px;
 	}
-	.project-title h3 {
-		width: 50%;
-		max-width: 500px;
+	
+	.project-title {
+		width: 300px;
+	}
+	
+	.project-title h2 {
 		text-align: right;
 		font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		font-size: 2.5em;
+		font-size: 1.5em;
+		margin-top: 110px;
+		padding-right: 15px;
+/*
+		width: 400px;
+		text-align: right;
+		font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 2em;
 		float: right;
 		padding-right: 15px;
-		margin-top: 150px;
+		margin-top: 110px;
+*/
 	}
 
-	.project-header .project-desc p {
+	.project-desc p {
 		max-width: 450px;
 		text-align: left;
 		font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 		padding-left: 15px;
-		margin-top: 160px;
-		margin-bottom: 150px;
+		margin-top: 117px;
+	}
+	
+	.project-desc ul {
+		margin-bottom: 65px;
+		padding-left: 15px;
+	}
+	
+	.project-sect {
+		width: 600px;
+		margin-left: 310px;
 	}
 }
 

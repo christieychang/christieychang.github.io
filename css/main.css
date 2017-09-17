@@ -79,6 +79,25 @@ a:hover .portfolio-piece{
 }
 
 
+/*About Page*/
+.about {
+	background: #ff7f66;
+	color: white;
+	margin-top: 75px;
+}
+
+.about h3 {
+	font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 100px 50px 100px 50px;
+	color: white;
+}
+
+.about p {
+	font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 0px 50px 100px 50px;
+}
+
+
  /*footer*/
 .footer {
 	text-align: center;
@@ -164,6 +183,26 @@ a:hover .portfolio-piece{
 	.portfolio-piece:hover .proj-description {
 		opacity: 1;
 	}
+	/*About Page*/
+	.about {
+		background: #ff7f66;
+		color: white;
+		margin-top: 75px;
+	}
+
+	.about h3 {
+		font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		padding: 100px 50px 50px 150px;
+		color: white;
+		max-width: 500px;
+	}
+	
+	.about p {
+		font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		padding-left: 150px;
+		padding-bottom: 100px;
+		max-width: 500px;
+	}
 }
 
 
@@ -222,6 +261,27 @@ a:hover .portfolio-piece{
 	.footer {
 		padding: 75px 0px;
 	}
+	
+	/*About Page*/
+	.about {
+		background: #ff7f66;
+		color: white;
+		margin-top: 75px;
+	}
+
+	.about h3 {
+		font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		padding: 100px 50px 50px 150px;
+		color: white;
+		width: 500px;
+	}
+	
+	.about p {
+		font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		padding-left: 150px;
+		padding-bottom: 100px;
+		width: 500px;
+	}
 }
 
 
@@ -257,7 +317,10 @@ a:hover .portfolio-piece{
 }
 
 
-/*
+
+
+
+/* COMING SOON
 
 .coming-soon {
 	text-align: center;
