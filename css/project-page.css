@@ -143,6 +143,15 @@ main {
 	padding-left: 10px;
 }
 
+img {
+	width: 100%;
+	margin: 25px 0px;
+}
+
+.tech-side {
+	width: 100%;
+	margin: 25px 0px;
+}
 
 /* Screen for Tablets */
 @media only screen and (min-width: 600px) {
@@ -256,6 +265,16 @@ main {
 	.project-sect {
 		width: 600px;
 		margin-left: 310px;
+	}
+	
+	img {
+		width: 600px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.tech-side {
+		width: 800px;
 	}
 }
 
