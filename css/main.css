@@ -282,6 +282,20 @@ a:hover .portfolio-piece{
 		padding-bottom: 100px;
 		width: 500px;
 	}
+	
+	.about-img img {
+		width: 400px;
+		margin-top: 200px;
+		margin-left: 75px;
+	}
+	
+	.about-w-pic {
+		background: #ff7f66;
+		color: white;
+		margin-top: 75px;
+		display: -webkit-flex;
+		display: flex;
+	}
 }
 
 
