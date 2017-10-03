@@ -178,10 +178,12 @@ a:hover .portfolio-piece{
 	
 	.portfolio-piece .proj-description {
 		opacity: 0;
+		display: none;
 	}
 
 	.portfolio-piece:hover .proj-description {
 		opacity: 1;
+		
 	}
 	/*About Page*/
 	.about {
