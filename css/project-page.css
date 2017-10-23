@@ -153,6 +153,10 @@ img {
 	margin: 25px 0px;
 }
 
+.bold {
+	font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
 /* Screen for Tablets */
 @media only screen and (min-width: 600px) {
 	/* header and navigation */
@@ -263,12 +267,12 @@ img {
 	}
 	
 	.project-sect {
-		width: 600px;
+		width: 700px;
 		margin-left: 310px;
 	}
 	
 	img {
-		width: 600px;
+		width: 700px;
 		margin-top: 25px;
 		margin-bottom: 25px;
 	}
