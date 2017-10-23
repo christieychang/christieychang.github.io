@@ -285,8 +285,6 @@ a:hover .portfolio-piece {
 	}
 	
 	a:hover .portfolio-piece {
-		width: 100%;
-		height: 100%;
 		background: #FFF;
 		color: #3e454c;
 	}
