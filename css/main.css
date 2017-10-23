@@ -46,7 +46,7 @@
 
 .portfolio-piece {
 	width: 100%;
-	height: 300px;
+	height: 285px;
 	overflow: hidden;
 /*
 	max-width: 100%;
@@ -352,6 +352,7 @@ a:hover .portfolio-piece {
 	background-image: url('../images/comyoot-project-3.png');
 	background-size: 100% auto;
 	color: #e9e9e9;
+	background-repeat: no-repeat;
 }
 
 .project2 {
@@ -359,6 +360,7 @@ a:hover .portfolio-piece {
 	background-image: url('../images/designing-IS-project.png');
 	background-size: 100% auto;
 	color: #e9e9e9;
+	background-repeat: no-repeat;
 }
 
 .project3 {
@@ -366,6 +368,7 @@ a:hover .portfolio-piece {
 	background-image: url('../images/dashboard-project.png');
 	background-size: 100% auto;
 	color: #3e454c;
+	background-repeat: no-repeat;
 }
 
 .project4 {
@@ -373,6 +376,7 @@ a:hover .portfolio-piece {
 	background-image: url('../images/xylophone-project.png');
 	background-size: 100% auto;
 	color: #3e454c;
+	background-repeat: no-repeat;
 }
 
 .project5 {
