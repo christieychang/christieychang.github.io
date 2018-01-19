@@ -51,7 +51,7 @@
 /*
 	max-width: 100%;
 	min-height: 300px;
-	
+
 */
 	text-align: center;
 	text-decoration: none;
@@ -69,7 +69,7 @@ a:hover .portfolio-piece {
 */
 
 .portfolio-piece .proj-description {
-		opacity: 0;
+		opacity: 1;
 	}
 
 .proj-description p {
@@ -182,9 +182,9 @@ a:hover .portfolio-piece {
 		text-decoration: none;
 		padding: 10px;
 	}
-	
+
 	.portfolio-piece .proj-description {
-		opacity: 0;
+		opacity: 1;
 	}
 
 	/*About Page*/
@@ -200,7 +200,7 @@ a:hover .portfolio-piece {
 		color: white;
 		max-width: 500px;
 	}
-	
+
 	.about p {
 		font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 		padding-left: 150px;
@@ -209,28 +209,28 @@ a:hover .portfolio-piece {
 	}
 	.project1 {
 		background: #3e454c;
-		background-image: url('../images/comyoot-project-3.png');
+		/* background-image: url('../images/comyoot-project-3.png'); */
 		background-size: 100% 100%;
 		color: #e9e9e9;
 	}
 
 	.project2 {
 		background: #2185c5;
-		background-image: url('../images/designing-IS-project.png');
+		/* background-image: url('../images/designing-IS-project.png'); */
 		background-size: 100% 100%;
 		color: #e9e9e9;
 	}
 
 	.project3 {
 		background: #a3dbfc;
-		background-image: url('../images/dashboard-project.png');
+		/* background-image: url('../images/dashboard-project.png'); */
 		background-size: 100% 100%;
 		color: #3e454c;
 	}
 
 	.project4 {
 		background: #fbeec4;
-		background-image: url('../images/xylophone-project.png');
+		/* background-image: url('../images/xylophone-project.png'); */
 		background-size: 100% 100%;
 		color: #3e454c;
 	}
@@ -283,12 +283,12 @@ a:hover .portfolio-piece {
 		background-color: none;
 		margin: auto;
 	}
-	
+
 	a:hover .portfolio-piece {
 		background: #FFF;
 		color: #3e454c;
 	}
-	
+
 	.portfolio .flex-item {
 		width: 498px;
     	height: 200px;
@@ -296,19 +296,19 @@ a:hover .portfolio-piece {
     	margin: auto;
     	text-align: center;
 	}
-	
+
 	.portfolio-piece:hover .proj-description {
 		opacity: 1;
 	}
-	
+
 	.proj-description {
 		padding: 50px 0px;
 	}
-	
+
 	.footer {
 		padding: 75px 0px;
 	}
-	
+
 	/*About Page*/
 	.about {
 		background: #ff7f66;
@@ -322,20 +322,20 @@ a:hover .portfolio-piece {
 		color: white;
 		width: 500px;
 	}
-	
+
 	.about p {
 		font-family: "Europa-Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 		padding-left: 150px;
 		padding-bottom: 100px;
 		width: 500px;
 	}
-	
+
 	.about-img img {
 		width: 400px;
 		margin-top: 200px;
 		margin-left: 75px;
 	}
-	
+
 	.about-w-pic {
 		background: #ff7f66;
 		color: white;
@@ -348,24 +348,27 @@ a:hover .portfolio-piece {
 
 /* individual project rectangle colors */
 .project1 {
-	background: #3e454c;
-	background-image: url('../images/comyoot-project-3.png');
+	/* background: #3e454c; */
+	background: #CED7DD;
+	/* background-image: url('../images/comyoot-project-3.png'); */
 	background-size: 100% auto;
-	color: #e9e9e9;
+	color: #3e454c;
 	background-repeat: no-repeat;
 }
 
 .project2 {
-	background: #2185c5;
-	background-image: url('../images/designing-IS-project.png');
+	/* background: #2185c5; */
+	background: #7392B7;
+	/* background-image: url('../images/designing-IS-project.png'); */
 	background-size: 100% auto;
-	color: #e9e9e9;
+	color: #3e454c;
 	background-repeat: no-repeat;
 }
 
 .project3 {
-	background: #a3dbfc;
-	background-image: url('../images/dashboard-project.png');
+	/* background: #a3dbfc; */
+	background: #88DCE2;
+	/* background-image: url('../images/dashboard-project.png'); */
 	background-size: 100% auto;
 	color: #3e454c;
 	background-repeat: no-repeat;
@@ -373,7 +376,8 @@ a:hover .portfolio-piece {
 
 .project4 {
 	background: #fbeec4;
-	background-image: url('../images/xylophone-project.png');
+	background: #E07D7D;
+	/* background-image: url('../images/xylophone-project.png'); */
 	background-size: 100% auto;
 	color: #3e454c;
 	background-repeat: no-repeat;
