@@ -13,6 +13,11 @@
 	color: #EB7E6C; /*orange red color*/
 }
 
+.bold-blue-orig {
+	font-weight: 500;
+	color: #7597CD;
+}
+
 .text {
 	font-weight: 800;
 	font-size: 1em;
