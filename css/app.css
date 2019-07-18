@@ -2,11 +2,6 @@
 	font-family: 'Gothic A1', sans-serif;
 }
 
-.grid-x {
-  margin-bottom:-10px!important;
-  margin-top:0px!important;
-}
-
 .bold-blue {
 	font-weight: 500;
 	color: #EB7E6C;
@@ -14,12 +9,17 @@
 
 .bold-blue-orig {
 	font-weight: 500;
-	color: #7597CD;
+	color: #7597CD; 
+	
 }
 
-.text {
-	font-weight: 800;
-	font-size: 1em;
+.header-description-inner a:hover {
+	color: #B9CDF1;
+}
+
+.grid-x {
+  margin-bottom:-10px!important;
+  margin-top:0px!important;
 }
 
 h1 {
@@ -46,21 +46,18 @@ h4 {
 
 .header-description {
 	padding-right: 37%;
+	padding-top: 125px;
+	padding-bottom: 175px;
 }
 
 .header-description h2 {
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 200;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 .header {
 	padding-top: 75px;
-}
-
-.header-description {
-	padding-top: 125px;
-	padding-bottom: 175px;
 }
 
 .header-name {
@@ -71,6 +68,10 @@ h4 {
 .header-nav {
 	position: relative;
 	padding-top: 10px;
+}
+
+.logo {
+	width: 12%;
 }
 
 nav {
@@ -181,26 +182,20 @@ nav a {
 
 	.header-name h1 {
 		width: 100%;
-		/*text-align: center;*/
 		font-size: 1.75em;
 	}
 
 	.header-description, .header {
-		/*border: 1px black solid;*/
-		/*text-align: center;*/
 		padding-left: 5%;
-		padding-right: 12%;
+		padding-right: 5%;
 	}
 
-	.header-description-inner {
-		/*text-align: center;*/
-		/*margin: 0 auto;*/
-		/*border: 1px black solid;*/
+	.header-description {
+		padding-right: 37%;
 	}
 
 	.header-description h2 {
 		font-size: 1.10em;
-		/*border: 1px blue solid;*/
 	}
 
 	.project {
@@ -215,10 +210,18 @@ nav a {
 	}
 }
 
+.text {
+	font-weight: 800;
+	font-size: 1em;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
 	nav {
 		text-align:left;
+	}
+
+	.header-description {
+		padding: 15% 5%;
 	}
 }
