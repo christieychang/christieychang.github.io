@@ -13,8 +13,8 @@
 	
 }
 
-.header-description-inner a:hover {
-	color: #B9CDF1;
+footer {
+	background-color: #F0F0F0;
 }
 
 .grid-x {
@@ -42,6 +42,10 @@ h4 {
 	font-size: 1em;
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 900;
+}
+
+.header-description-inner a:hover {
+	color: #B9CDF1;
 }
 
 .header-description {
